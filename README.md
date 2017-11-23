@@ -1,4 +1,4 @@
-# bitumen_den_vis
+# Bitumen Density and Viscosity Models
 
 ## Introduction
 
@@ -15,7 +15,12 @@ The list of saved models that can be used in the applications are listed below:
 * _ViscosityModel_T_and_P_Features.pickle_
 * _ViscosityModel_AllFeatures.pickle_
 
+The minimum and maximum values of the temperature and pressures are shown here:
 
+|         | min   | max   |
+| ------- |:-----:| -----:|
+| T (C)   | 23    | 190   |
+| P(MPa)  | 0.92  | 13.88 |
 
 ## Using the Models
 
