@@ -8,20 +8,14 @@ The original data of this research are gathered from
 
 ## Models
 
-Three models has been developed: one for density and two for viscosity.
-The steps of created models are presented in this repository. 
-The list of saved models that can be used in the applications are listed below:
-* _DensityModel.pickle_
-* _ViscosityModel_T_and_P_Features.pickle_
-* _ViscosityModel_AllFeatures.pickle_
+Five algorithms such as polynomial regression, random forest regressor, adaboost regressor, extra trees regressor and support vector regression are trained to predict density and viscosity. 
+Out of all the algorithms, polynomial regression is selected as best performing model for prediction. 
+Equations for both density and viscosity are extracted using polynomial regression model in the python codes.
 
 The minimum and maximum values of the temperature and pressures are shown here:
 
 |         | min   | max   |
 | ------- |:-----:| -----:|
 | T (C)   | 23    | 190   |
-| P(MPa)  | 0.92  | 13.88 |
+| P(MPa)  | 0.91  | 13.88 |
 
-## Using the Models
-
-**UseModels** file shows how to load and use the generated models.
