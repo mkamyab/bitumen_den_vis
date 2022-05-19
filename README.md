@@ -18,4 +18,3 @@ The minimum and maximum values of the temperature and pressures are shown here:
 | ------- |:-----:| -----:|
 | T (C)   | 23    | 190   |
 | P(MPa)  | 0.91  | 13.88 |
-
